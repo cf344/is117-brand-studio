@@ -1,4 +1,6 @@
-# IS117 Brand Studio
+# Off Hours — IS117 Brand Studio
+
+**Current work:** Off Hours is an in-progress modernist identity for young creatives choosing casual event outfits. The storefront and live style guide now share the approved wordmark, visual tokens and voice. BRAND-001 remains open pending learner checks, learning-record review and a keep/merge decision.
 
 **The same white T-shirt can carry very different meanings.** Develop a brand for it with an AI collaborator, then make those decisions visible in a professional website and a live style guide.
 

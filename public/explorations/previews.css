@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #20281f;
+  background: #f5f4ed;
+  font-family: Arial, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.25em;
+}
+
+a:focus-visible {
+  outline: 3px solid #a84024;
+  outline-offset: 6px;
+}
+
+.study-note {
+  padding: 12px 5%;
+  background: #20281f;
+  color: #fff;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 28px 5%;
+  border-bottom: 1px solid #b9bdb1;
+}
+
+.brand {
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  text-decoration: none;
+}
+
+header > span {
+  font-size: 13px;
+}
+
+header > a:last-child {
+  font-size: 13px;
+}
+
+main {
+  padding: 44px 5%;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 6%;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+  min-height: 590px;
+}
+
+.copy {
+  padding: 28px 0;
+}
+
+.eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  margin-bottom: 28px;
+}
+
+h1 {
+  font-size: clamp(36px, 4.5vw, 70px);
+  line-height: 1.03;
+  letter-spacing: -0.055em;
+  margin: 0 0 28px;
+  max-width: 13ch;
+}
+
+.support {
+  max-width: 30ch;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.action {
+  display: inline-flex;
+  gap: 24px;
+  align-items: center;
+  padding: 18px 24px;
+  background: #263d30;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+figure {
+  margin: 0;
+  background: #e8eae1;
+  position: relative;
+  padding: 20px;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 510px;
+  object-fit: contain;
+}
+
+.figure-label,
+figcaption {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.notes {
+  max-width: 1400px;
+  margin: 56px auto 0;
+  padding-top: 24px;
+  border-top: 1px solid #b9bdb1;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.notes p {
+  max-width: 80ch;
+}
+
+.notes h2 {
+  font-size: 18px;
+}
+
+.postmodernist {
+  background: #f4eee4;
+  color: #33241f;
+}
+
+.postmodernist .brand {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.postmodernist h1 {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  letter-spacing: -0.055em;
+}
+
+.postmodernist .eyebrow {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid currentcolor;
+}
+
+.postmodernist figure {
+  border: 2px solid #206463;
+  border-top-color: #923c53;
+  border-bottom-color: #923c53;
+  box-shadow:
+    12px 12px 0 -2px #f4eee4,
+    12px 12px 0 #206463;
+}
+
+.postmodernist .figure-label {
+  display: inline-block;
+  background: #33241f;
+  color: #fff;
+  padding: 8px 12px;
+}
+
+.postmodernist figcaption {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.postmodernist .action {
+  background: #713d30;
+}
+
+@media (width <= 700px) {
+  header {
+    flex-wrap: wrap;
+    padding-block: 20px;
+  }
+
+  header > span {
+    display: none;
+  }
+
+  main {
+    padding-top: 12px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    min-height: auto;
+  }
+
+  h1 {
+    font-size: 44px;
+    max-width: 15ch;
+  }
+
+  figure img {
+    max-height: 360px;
+  }
+
+  .postmodernist figure {
+    margin-right: 12px;
+  }
+}
