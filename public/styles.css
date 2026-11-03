@@ -1,18 +1,16 @@
-/* Shared brand tokens. Change these after you agree on your brand direction.
+/* Shared Off Hours brand tokens.
    Both the storefront and the live style guide use this file. */
 :root {
-  --color-paper: #f6f5f0;
-  --color-ink: #171a18;
-  --color-muted: #5a615b;
-  --color-line: #d1d5cc;
-  --color-accent: #e3ef56;
+  --color-paper: #f5f4ed;
+  --color-ink: #20281f;
+  --color-muted: #535d52;
+  --color-line: #b9bdb1;
+  --color-accent: #dce6d8;
   --color-soft: #e8eae1;
   --color-white: #fff;
   --color-danger: #992e28;
-  --font-body:
-    system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
-  --font-display:
-    system-ui, -apple-system, blinkmacsystemfont, "Segoe UI", sans-serif;
+  --font-body: arial, helvetica, sans-serif;
+  --font-display: arial, helvetica, sans-serif;
   --font-mono: ui-monospace, sfmono-regular, consolas, monospace;
   --space-1: 0.5rem;
   --space-2: 1rem;
@@ -209,7 +207,7 @@ p + p {
 }
 
 .wordmark {
-  width: 150px;
+  width: 175px;
   height: auto;
 }
 
@@ -307,6 +305,9 @@ p + p {
 
 .product-information h1 {
   margin-top: 1.6rem;
+  font-size: clamp(2.4rem, 4vw, 4rem);
+  line-height: 1.04;
+  letter-spacing: -0.055em;
 }
 
 .product-intro {
@@ -769,7 +770,7 @@ legend {
 
 .logo-mono {
   width: 190px;
-  filter: brightness(0);
+  height: auto;
 }
 
 .logo-variant p,
@@ -1293,5 +1294,61 @@ legend {
   *::after {
     transition: none !important;
     animation: none !important;
+  }
+}
+
+/* Off Hours: restrained hierarchy and reusable outfit guidance. */
+.outfit-section {
+  padding-block: var(--space-6);
+  border-top: 1px solid var(--color-line);
+}
+
+.outfit-intro {
+  max-width: 62ch;
+  margin-top: var(--space-2);
+}
+
+.outfit-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.outfit-card {
+  padding: var(--space-3);
+  background: var(--color-soft);
+}
+
+.outfit-card h3 {
+  margin-block: var(--space-2);
+}
+
+.outfit-preference {
+  margin-top: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-line);
+}
+
+.outfit-preference > p {
+  max-width: 65ch;
+  margin-block: var(--space-2);
+}
+
+.preference-actions {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  margin-block: var(--space-3);
+}
+
+.preference-actions [aria-pressed="true"] {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+@media (width <= 700px) {
+  .outfit-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -59,3 +59,36 @@
     form.querySelector('input[name="size"]:checked')?.focus();
   });
 })();
+
+// An optional, reversible styling choice; no storage or purchase requirement.
+(() => {
+  const choices = document.querySelectorAll("[data-outfit]");
+  const result = document.querySelector("#outfit-result");
+  const next = document.querySelector("#outfit-next");
+  const reset = document.querySelector("#reset-outfit");
+  if (!result || !next || !reset) return;
+  const suggestions = {
+    simple:
+      "You chose to keep it simple. Start with the white tee, your everyday jeans and familiar shoes.",
+    layer:
+      "You chose to add a layer. Start with the white tee and an open shirt or jacket you already own.",
+  };
+  choices.forEach((button) => {
+    button.addEventListener("click", () => {
+      choices.forEach((choice) => {
+        choice.setAttribute("aria-pressed", String(choice === button));
+      });
+      result.textContent = suggestions[button.dataset.outfit];
+      next.hidden = false;
+      reset.hidden = false;
+    });
+  });
+  reset.addEventListener("click", () => {
+    choices.forEach((choice) => choice.setAttribute("aria-pressed", "false"));
+    result.textContent =
+      "No preference needed. All three ideas are yours to try.";
+    next.hidden = true;
+    reset.hidden = true;
+    choices[0]?.focus();
+  });
+})();
