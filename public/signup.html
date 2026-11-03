@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Try the Off Hours newsletter sign-up demo. Casual outfit inspiration, with no real subscription or data collection."
+    />
+    <title>Sign up — Off Hours</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <script src="signup.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <aside class="starter-notice" aria-label="Demo information">
+      <span
+        ><strong>Classroom demo.</strong> No email addresses are saved and no
+        messages are sent.</span
+      ><a href="index.html">Back to the shop</a>
+    </aside>
+    <header class="site-header wrap">
+      <a
+        class="brand-link"
+        href="index.html"
+        aria-label="Off Hours storefront home"
+        ><img
+          class="wordmark"
+          src="assets/off-hours-wordmark.svg"
+          alt="Off Hours wordmark"
+          width="175"
+          height="48"
+      /></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link" href="index.html">Shop</a>
+        <a class="nav-link" href="styleguide.html">Style guide</a>
+        <a class="nav-link" href="studio.html">Studio</a>
+        <a class="nav-link" href="signup.html" aria-current="page">Sign up</a>
+      </nav>
+    </header>
+    <main id="main" class="signup-layout wrap">
+      <section class="signup-intro" aria-labelledby="signup-title">
+        <p class="eyebrow">Off Hours / outfit inspiration</p>
+        <h1 id="signup-title">Good ideas.<br />Less overthinking.</h1>
+        <p class="signup-lead">
+          A little inspiration for making casual outfits your own.
+        </p>
+        <div class="signup-preview">
+          <p class="eyebrow">The kind of idea we would share</p>
+          <h2>Start with what you own.</h2>
+          <p>
+            A white tee, your favorite jeans, and a familiar pair of shoes. Add
+            one personal detail and make it yours.
+          </p>
+          <a href="index.html#outfit-ideas">Explore the free outfit ideas →</a>
+        </div>
+      </section>
+      <section class="signup-panel" aria-labelledby="form-title">
+        <h2 id="form-title">Try the sign-up.</h2>
+        <p id="demo-help">
+          This is a newsletter form demonstration. Use a sample address such as
+          hello@example.com. It does not create an account or subscription.
+        </p>
+        <form id="signup-form" aria-describedby="demo-help" novalidate hidden>
+          <label for="signup-email">Email address</label>
+          <input
+            id="signup-email"
+            name="email"
+            type="email"
+            autocomplete="off"
+            inputmode="email"
+            maxlength="254"
+            required
+            aria-describedby="email-help email-error"
+          />
+          <p id="email-help" class="field-help">
+            Use a sample email address to try the form.
+          </p>
+          <p id="email-error" class="field-error" role="alert" hidden></p>
+          <button class="button button-primary" type="submit">
+            Try demo sign-up <span aria-hidden="true">→</span>
+          </button>
+          <p class="field-help">
+            Nothing is saved, sent or added to a mailing list.
+          </p>
+        </form>
+        <p id="signup-unavailable">
+          Enable JavaScript to try this demo form. No information has been
+          submitted.
+        </p>
+        <div
+          id="signup-confirmation"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        ></div>
+        <button id="signup-again" class="text-button" type="button" hidden>
+          Try another sample address
+        </button>
+      </section>
+    </main>
+    <footer class="site-footer wrap">
+      <p>Off Hours / Your everyday, your way</p>
+      <p class="footer-tagline">Classroom concept. No real subscription.</p>
+      <a href="index.html">Back to the storefront →</a>
+    </footer>
+  </body>
+</html>
