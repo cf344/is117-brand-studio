@@ -133,29 +133,11 @@ How it helps Off Hours: I could use a clean design with large pictures of the wh
 ## 1. Comparison 
 After researching the three websites, I noticed that they all provide important product information, but they emphasize different things.
 
-Website
-
-Main Focus
-
-What I Can Learn
-
-UNIQLO
-
-Everyday basics, product information, and styling
-
-Show customers how to style a simple T-shirt
-
-H&M
-
-Shopping convenience, prices, and product details
-
-Make important shopping information easy to find
-
-Zara
-
-Product-focused presentation and simple layout
-
-Use clean visuals that keep attention on the clothing
+W| Website | Main Focus | What I Can Learn |
+| --- | --- | --- |
+| UNIQLO | Everyday basics and styling | Show outfit ideas |
+| H&M | Shopping convenience | Make information easy to find |
+| Zara | Simple product presentation | Use clean visuals |
 
 My conclusion: I think Off Hours could combine ideas from all three websites. I would use UNIQLO's styling inspiration, H&M's clear shopping information, and Zara's simple product presentation. This would help create a website that feels modern and creative without being complicated.
 
