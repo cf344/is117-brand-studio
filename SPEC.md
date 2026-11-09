@@ -90,9 +90,8 @@ Write a short result and link only evidence that exists. A passing browser check
 
 No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perhaps a brand story, a supported fit guide, or richer demo-bag behavior. Agree its scope and add one new spec ID at that time.
 
+## Research
 
-
-## Research 
 Website 1: UNIQLO
 
 Source: https://www.uniqlo.com/us/en/products/E424873-000/00
@@ -129,8 +128,8 @@ What it suggests: The page puts attention on the clothing itself while keeping t
 
 How it helps Off Hours: I could use a clean design with large pictures of the white T-shirt. This would help the product stand out while allowing customers to focus on outfit ideas instead of unnecessary decorations.
 
+## 1. Comparison
 
-## 1. Comparison 
 After researching the three websites, I noticed that they all provide important product information, but they emphasize different things.
 
 W| Website | Main Focus | What I Can Learn |
@@ -141,7 +140,8 @@ W| Website | Main Focus | What I Can Learn |
 
 My conclusion: I think Off Hours could combine ideas from all three websites. I would use UNIQLO's styling inspiration, H&M's clear shopping information, and Zara's simple product presentation. This would help create a website that feels modern and creative without being complicated.
 
-## 2. Comparing 2 brands 
+## 2. Comparing 2 brands
+
 Position A: Effortless Everyday Style
 
 This position focuses on making everyday outfits simple and easy to put together. The white T-shirt would be presented as a basic clothing item that can be styled in different ways for school, casual outings, or spending time with friends.
@@ -160,9 +160,8 @@ I chose Position A: Effortless Everyday Style because it matches the main idea b
 
 I want the brand to help young people find casual outfits that look good without making getting dressed complicated. I also think I can still include creative outfit ideas while keeping the website simple and easy to use.
 
-
-
 ## 3. Two Customer Persona Hypotheses
+
 Persona 1: Young Creative
 
 Name: Jordan
@@ -262,7 +261,9 @@ For Off Hours, I want to create a website that combines simple design, useful pr
 My main goal is to help young people choose casual outfits easily while still feeling confident in their personal style.
 
 ## Open Question:
+
 Which types of outfit examples would be most useful to young creatives: everyday casual outfits, college outfits, or outfits for going out with friends?
 
-## AI Assistance Disclosure: 
+## AI Assistance Disclosure:
+
 I used ChatGPT to help research the three websites, organize the comparisons, and draft this research. The audience interpretations and design recommendations should be reviewed against my own observations and project decisions before submission.
