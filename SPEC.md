@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Baseline ready to try; brand decisions pending.
+- Stage: Off Hours storefront built; peer feedback under review.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Pending learner scope agreement.
-- Next small decision: Confirm the first slice after trying the neutral storefront.
+- Status: Initial implementation exists; verification and reviewer retry pending.
+- Next small decision: Check peer-review improvements and record reviewer feedback.
 
 ## Product boundary
 
@@ -17,26 +17,30 @@ The product is the same white T-shirt throughout the comparison. The baseline of
 
 ## Audience hypotheses
 
-The primary need guides the page. Give the secondary card one contrasting need to check that same page; keep both cards brief.
+These personas are learner hypotheses, not validated customer behavior. No customer interviews have confirmed these needs.
 
-| Tiny card                             | Primary audience          | Secondary audience        |
-| ------------------------------------- | ------------------------- | ------------------------- |
-| Person in a concrete situation        | Not chosen yet            | Not chosen yet            |
-| Goal or meaning they seek             | Not chosen yet            | Not chosen yet            |
-| Concern before choosing               | Not chosen yet            | Not chosen yet            |
-| What the page should help them decide | Not chosen yet            | Not chosen yet            |
-| Evidence or assumption                | Assumption; not validated | Assumption; not validated |
+| Tiny card | Primary audience | Secondary audience |
+| --- | --- | --- |
+| Person in a concrete situation | Young creative choosing a casual-event outfit | College student choosing a class outfit |
+| Goal or meaning they seek | Look stylish without overthinking clothes | Find a practical everyday outfit |
+| Concern before choosing | A plain T-shirt may seem hard to style | Sizing, price, fit, and comfort are uncertain |
+| What the page should help them decide | How to style a white tee for different occasions | What outfit ideas are possible and what facts remain unknown |
+| Evidence or assumption | Learner hypothesis; untested | Learner hypothesis; untested |
+
+See [Research](#research) for original retail-page sources, interpretations, and decisions. Retail-page observations do not prove customer preferences.
 
 ## Early brand brief
 
-| Decision                                 | Agreement      |
-| ---------------------------------------- | -------------- |
-| Brand name                               | Not chosen yet |
-| One-sentence promise                     | Not chosen yet |
-| Primary archetype: the brand's character | Not chosen yet |
-| Three voice traits                       | Not chosen yet |
-| One example line in this voice           | Not chosen yet |
-| Learner's predicted audience effect      | Not chosen yet |
+These are learner-approved design choices, not verified audience outcomes.
+
+| Decision | Agreement |
+| --- | --- |
+| Brand name | Off Hours |
+| One-sentence promise | Less time choosing. More time doing your thing. |
+| Primary archetype: the brand's character | Everyperson |
+| Three voice traits | Casual, clear, friendly |
+| One example line in this voice | Start with a white T-shirt. Make a casual outfit your own. |
+| Learner's predicted audience effect | Make casual outfit choices easier; not tested |
 
 ## Visual decision
 
@@ -267,3 +271,17 @@ Which types of outfit examples would be most useful to young creatives: everyday
 ## AI Assistance Disclosure:
 
 I used ChatGPT to help research the three websites, organize the comparisons, and draft this research. The audience interpretations and design recommendations should be reviewed against my own observations and project decisions before submission.
+
+
+## Peer-review decisions — November 12, 2026
+
+Feedback by @mishkhurshid was reviewed against the existing site and [Research](#research). These are implementation decisions and proposed checks, not observed user-test results.
+
+| Issue | Observation | Decision | Planned check |
+| --- | --- | --- | --- |
+| [#7](https://github.com/cf344/is117-brand-studio/issues/7) | Earlier summary tables contradicted the research. | Synchronize the audience and brand summaries; keep personas labeled hypotheses. | Compare the tables to the Research section and live guide. |
+| [#8](https://github.com/cf344/is117-brand-studio/issues/8) | The outfit cards were text-only. | Add original illustrations with alt text. | Review all three cards at desktop and mobile widths and ask which outfit is easiest to recognize. |
+| [#9](https://github.com/cf344/is117-brand-studio/issues/9) | The fictional sizes had no measurement note. | Explicitly state that fit measurements are unavailable. | Read the note on mobile and via keyboard navigation. |
+| [#10](https://github.com/cf344/is117-brand-studio/issues/10) | “Style guide” could be mistaken for styling ideas. | Add an Outfit ideas link and rename the internal Brand guide and Project studio links. | Follow each link from the header without hints. |
+
+AI helped draft the changes. No human reviewer retry, keyboard test, or mobile observation is claimed until actually recorded.
