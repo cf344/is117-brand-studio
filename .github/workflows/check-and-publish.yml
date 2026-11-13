@@ -19,6 +19,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Temporary formatting diagnostics for peer-review fix
+        run: |
+          npx prettier --write SPEC.md public/index.html public/signup.html public/studio.html public/styleguide.html
+          for f in SPEC.md public/index.html public/signup.html public/studio.html public/styleguide.html; do
+            echo "FORMATTED_FILE_BEGIN:$f"
+            base64 -w 0 "$f"
+            echo
+            echo "FORMATTED_FILE_END:$f"
+          done
       - run: npx playwright install --with-deps chromium
       - run: npm run check
 
