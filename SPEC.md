@@ -6,10 +6,10 @@ This is the durable agreement between the learner and agent. Keep it concise and
 
 ## Current stage
 
-- Stage: Off Hours storefront built; peer feedback under review.
+- Stage: Off Hours branded storefront, live style guide, and peer-feedback revisions implemented.
 - Current feature: `BRAND-001` — first branded storefront and live style guide.
-- Status: Initial implementation exists; verification and reviewer retry pending.
-- Next small decision: Check peer-review improvements and record reviewer feedback.
+- Status: Published implementation exists; learner reported a passing GitHub Actions check and successful keyboard/mobile tests. Latest bag-icon revision still needs visual and automated-check confirmation; independent reviewer retry is not documented.
+- Next small decision: Verify the new bag icon and latest checks, then resubmit the documented revisions.
 
 ## Product boundary
 
@@ -48,25 +48,25 @@ Compare two small hero previews before building the whole page. Hold the product
 
 A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
 
-| Item                                              | Agreement or evidence |
-| ------------------------------------------------- | --------------------- |
-| Shared headline / support / action                | Not chosen yet        |
-| Modernist preview, reference, and annotations     | Not chosen yet        |
-| Postmodernist preview, reference, and annotations | Not chosen yet        |
-| Chosen direction and reason                       | Not chosen yet        |
-| Original SVG logo                                 | Not chosen yet        |
-| Monochrome and small-size variants                | Not chosen yet        |
-| Logo review at actual use size                    | Not checked yet       |
-| Shared palette, typography, spacing, and assets   | Not chosen yet        |
+| Item | Agreement or evidence |
+| --- | --- |
+| Shared headline / support / action | Storefront headline: “Less time choosing. More time doing your thing.” Supporting copy: “Start with a white T-shirt. Make a casual outfit your own.” Action: “Add to demo bag.” See [storefront](public/index.html). |
+| Modernist preview, reference, and annotations | Chosen modernist-inspired implementation: organized sections, neutral colors, clear type and prominent product image. The learner's research compares UNIQLO, H&M and Zara below. A separately annotated modernist hero preview is not linked here. |
+| Postmodernist preview, reference, and annotations | Research below describes Position B (“Trendy and Creative Fashion”) as an expressive alternative with bold colors and typography. A separately annotated postmodernist hero preview is not linked here. |
+| Chosen direction and reason | Position A, “Effortless Everyday Style,” chosen for simple, practical outfit decisions; see [Comparing 2 brands](#2-comparing-2-brands) and [live brand guide](public/styleguide.html). |
+| Original SVG logo | [Off Hours wordmark](public/assets/off-hours-wordmark.svg), used in the storefront and guide. |
+| Monochrome and small-size variants | [Brand guide logo section](public/styleguide.html#logo) presents the original one-color SVG at small and regular widths. |
+| Logo review at actual use size | Guide includes a 110px sample and storefront uses 175px. No separately documented learner inspection of readability at actual use size. |
+| Shared palette, typography, spacing, and assets | [Shared CSS tokens](public/styles.css), [storefront](public/index.html), and [live brand guide](public/styleguide.html). |
 
 ## Ethical persuasion
 
 Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
 
-| Principle      | Actual copy or interaction | Visitor benefit / factual support |
-| -------------- | -------------------------- | --------------------------------- |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
-| Not chosen yet | Not chosen yet             | Not chosen yet                    |
+| Principle | Actual copy or interaction | Visitor benefit / factual support |
+| --- | --- | --- |
+| Liking | Friendly Everyperson voice and relatable outfit ideas (“Tee + everyday jeans,” “Tee + open overshirt,” “Tee + your signature detail”) on the [storefront](public/index.html#outfit-ideas). | Visitors can imagine everyday uses of the white tee without unverified product claims. The intended appeal is a design hypothesis, not a measured customer outcome. |
+| Reciprocity | Three free outfit ideas and optional, reversible “Keep it simple” / “Add a layer” suggestions on the [storefront](public/index.html#outfit-ideas). | Visitors receive styling guidance even without buying anything; no account or checkout is required. |
 
 ## BRAND-001 — first branded storefront and live style guide
 
@@ -86,13 +86,13 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID   | Files           | Issue / PR      | Actual checks and observations            |
-| --------- | --------------- | --------------- | ----------------------------------------- |
-| BRAND-001 | Not changed yet | Not created yet | Not run yet; learner observations pending |
+| Spec ID | Files | Issue / PR | Actual checks and observations |
+| --- | --- | --- | --- |
+| BRAND-001 | [Storefront](public/index.html), [shop behavior](public/shop.js), [shared styles](public/styles.css), [brand guide](public/styleguide.html), [LEARNING.md](LEARNING.md) | [Peer-review issues #7–#10](https://github.com/cf344/is117-brand-studio/issues?q=is%3Aissue+7+8+9+10), [revision PR #11](https://github.com/cf344/is117-brand-studio/pull/11), [bag-icon commit](https://github.com/cf344/is117-brand-studio/commit/dc0fb9aa822be47631529839d2065481ec748da1) | Learner reported GitHub Actions checks passing after the formatting repair; manual keyboard test: Shop, size selection and Add to bag worked; learner reported mobile site worked. See [LEARNING.md](LEARNING.md) for the learner's own interpretation. The latest bag-icon change has not yet been independently verified; no claim of complete accessibility or reviewer retest. |
 
 ## Later
 
-No follow-up is selected. After keeping `BRAND-001`, choose one next cycle: perhaps a brand story, a supported fit guide, or richer demo-bag behavior. Agree its scope and add one new spec ID at that time.
+The learner requested a clearer top-right demo bag while retaining the existing label, item count and behavior. An icon was added in the [bag-icon commit](https://github.com/cf344/is117-brand-studio/commit/dc0fb9aa822be47631529839d2065481ec748da1); confirm its published appearance and the latest check before calling that revision verified. Any further feature needs a separately agreed scope.
 
 ## Research
 
@@ -136,7 +136,7 @@ How it helps Off Hours: I could use a clean design with large pictures of the wh
 
 After researching the three websites, I noticed that they all provide important product information, but they emphasize different things.
 
-W| Website | Main Focus | What I Can Learn |
+| Website | Main Focus | What I Can Learn |
 | --- | --- | --- |
 | UNIQLO | Everyday basics and styling | Show outfit ideas |
 | H&M | Shopping convenience | Make information easy to find |
@@ -283,4 +283,4 @@ Feedback by @mishkhurshid was reviewed against the existing site and [Research](
 | [#9](https://github.com/cf344/is117-brand-studio/issues/9)   | The fictional sizes had no measurement note.       | Explicitly state that fit measurements are unavailable.                                | Read the note on mobile and via keyboard navigation.                                              |
 | [#10](https://github.com/cf344/is117-brand-studio/issues/10) | “Style guide” could be mistaken for styling ideas. | Add an Outfit ideas link and rename the internal Brand guide and Project studio links. | Follow each link from the header without hints.                                                   |
 
-AI helped draft the changes. No human reviewer retry, keyboard test, or mobile observation is claimed until actually recorded.
+AI helped draft the changes. The learner's later keyboard and mobile observations and own test explanation are recorded in [LEARNING.md](LEARNING.md); a human reviewer retry has not been recorded.
