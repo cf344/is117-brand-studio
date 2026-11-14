@@ -48,25 +48,25 @@ Compare two small hero previews before building the whole page. Hold the product
 
 A simple original SVG wordmark is enough. Show small-size and one-color presentations; they may use the same asset when it works.
 
-| Item | Agreement or evidence |
-| --- | --- |
-| Shared headline / support / action | Storefront headline: “Less time choosing. More time doing your thing.” Supporting copy: “Start with a white T-shirt. Make a casual outfit your own.” Action: “Add to demo bag.” See [storefront](public/index.html). |
-| Modernist preview, reference, and annotations | Chosen modernist-inspired implementation: organized sections, neutral colors, clear type and prominent product image. The learner's research compares UNIQLO, H&M and Zara below. A separately annotated modernist hero preview is not linked here. |
-| Postmodernist preview, reference, and annotations | Research below describes Position B (“Trendy and Creative Fashion”) as an expressive alternative with bold colors and typography. A separately annotated postmodernist hero preview is not linked here. |
-| Chosen direction and reason | Position A, “Effortless Everyday Style,” chosen for simple, practical outfit decisions; see [Comparing 2 brands](#2-comparing-2-brands) and [live brand guide](public/styleguide.html). |
-| Original SVG logo | [Off Hours wordmark](public/assets/off-hours-wordmark.svg), used in the storefront and guide. |
-| Monochrome and small-size variants | [Brand guide logo section](public/styleguide.html#logo) presents the original one-color SVG at small and regular widths. |
-| Logo review at actual use size | Guide includes a 110px sample and storefront uses 175px. No separately documented learner inspection of readability at actual use size. |
-| Shared palette, typography, spacing, and assets | [Shared CSS tokens](public/styles.css), [storefront](public/index.html), and [live brand guide](public/styleguide.html). |
+| Item                                              | Agreement or evidence                                                                                                                                                                                                                               |
+| ------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Shared headline / support / action                | Storefront headline: “Less time choosing. More time doing your thing.” Supporting copy: “Start with a white T-shirt. Make a casual outfit your own.” Action: “Add to demo bag.” See [storefront](public/index.html).                                |
+| Modernist preview, reference, and annotations     | Chosen modernist-inspired implementation: organized sections, neutral colors, clear type and prominent product image. The learner's research compares UNIQLO, H&M and Zara below. A separately annotated modernist hero preview is not linked here. |
+| Postmodernist preview, reference, and annotations | Research below describes Position B (“Trendy and Creative Fashion”) as an expressive alternative with bold colors and typography. A separately annotated postmodernist hero preview is not linked here.                                             |
+| Chosen direction and reason                       | Position A, “Effortless Everyday Style,” chosen for simple, practical outfit decisions; see [Comparing 2 brands](#2-comparing-2-brands) and [live brand guide](public/styleguide.html).                                                             |
+| Original SVG logo                                 | [Off Hours wordmark](public/assets/off-hours-wordmark.svg), used in the storefront and guide.                                                                                                                                                       |
+| Monochrome and small-size variants                | [Brand guide logo section](public/styleguide.html#logo) presents the original one-color SVG at small and regular widths.                                                                                                                            |
+| Logo review at actual use size                    | Guide includes a 110px sample and storefront uses 175px. No separately documented learner inspection of readability at actual use size.                                                                                                             |
+| Shared palette, typography, spacing, and assets   | [Shared CSS tokens](public/styles.css), [storefront](public/index.html), and [live brand guide](public/styleguide.html).                                                                                                                            |
 
 ## Ethical persuasion
 
 Choose two applications that help the visitor make a voluntary, informed decision. Record their real implementation and mechanism rather than a principle name alone. Required size selection or validation alone does not establish consistency. Do not invent social proof, scarcity, authority, or product facts.
 
-| Principle | Actual copy or interaction | Visitor benefit / factual support |
-| --- | --- | --- |
-| Liking | Friendly Everyperson voice and relatable outfit ideas (“Tee + everyday jeans,” “Tee + open overshirt,” “Tee + your signature detail”) on the [storefront](public/index.html#outfit-ideas). | Visitors can imagine everyday uses of the white tee without unverified product claims. The intended appeal is a design hypothesis, not a measured customer outcome. |
-| Reciprocity | Three free outfit ideas and optional, reversible “Keep it simple” / “Add a layer” suggestions on the [storefront](public/index.html#outfit-ideas). | Visitors receive styling guidance even without buying anything; no account or checkout is required. |
+| Principle   | Actual copy or interaction                                                                                                                                                                 | Visitor benefit / factual support                                                                                                                                   |
+| ----------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Liking      | Friendly Everyperson voice and relatable outfit ideas (“Tee + everyday jeans,” “Tee + open overshirt,” “Tee + your signature detail”) on the [storefront](public/index.html#outfit-ideas). | Visitors can imagine everyday uses of the white tee without unverified product claims. The intended appeal is a design hypothesis, not a measured customer outcome. |
+| Reciprocity | Three free outfit ideas and optional, reversible “Keep it simple” / “Add a layer” suggestions on the [storefront](public/index.html#outfit-ideas).                                         | Visitors receive styling guidance even without buying anything; no account or checkout is required.                                                                 |
 
 ## BRAND-001 — first branded storefront and live style guide
 
@@ -86,8 +86,8 @@ Keep when:
 
 Write a short result and link only evidence that exists. A passing browser check is evidence for its assertions, not customer research or proof of full accessibility.
 
-| Spec ID | Files | Issue / PR | Actual checks and observations |
-| --- | --- | --- | --- |
+| Spec ID   | Files                                                                                                                                                                   | Issue / PR                                                                                                                                                                                                                                                                                    | Actual checks and observations                                                                                                                                                                                                                                                                                                                                                     |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BRAND-001 | [Storefront](public/index.html), [shop behavior](public/shop.js), [shared styles](public/styles.css), [brand guide](public/styleguide.html), [LEARNING.md](LEARNING.md) | [Peer-review issues #7–#10](https://github.com/cf344/is117-brand-studio/issues?q=is%3Aissue+7+8+9+10), [revision PR #11](https://github.com/cf344/is117-brand-studio/pull/11), [bag-icon commit](https://github.com/cf344/is117-brand-studio/commit/dc0fb9aa822be47631529839d2065481ec748da1) | Learner reported GitHub Actions checks passing after the formatting repair; manual keyboard test: Shop, size selection and Add to bag worked; learner reported mobile site worked. See [LEARNING.md](LEARNING.md) for the learner's own interpretation. The latest bag-icon change has not yet been independently verified; no claim of complete accessibility or reviewer retest. |
 
 ## Later
@@ -136,11 +136,11 @@ How it helps Off Hours: I could use a clean design with large pictures of the wh
 
 After researching the three websites, I noticed that they all provide important product information, but they emphasize different things.
 
-| Website | Main Focus | What I Can Learn |
-| --- | --- | --- |
-| UNIQLO | Everyday basics and styling | Show outfit ideas |
-| H&M | Shopping convenience | Make information easy to find |
-| Zara | Simple product presentation | Use clean visuals |
+| Website | Main Focus                  | What I Can Learn              |
+| ------- | --------------------------- | ----------------------------- |
+| UNIQLO  | Everyday basics and styling | Show outfit ideas             |
+| H&M     | Shopping convenience        | Make information easy to find |
+| Zara    | Simple product presentation | Use clean visuals             |
 
 My conclusion: I think Off Hours could combine ideas from all three websites. I would use UNIQLO's styling inspiration, H&M's clear shopping information, and Zara's simple product presentation. This would help create a website that feels modern and creative without being complicated.
 
