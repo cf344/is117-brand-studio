@@ -302,7 +302,9 @@ Following instructor feedback (98/100, with two points remaining under Checked),
 
 **Sizing-note follow-up (November 17, learner report):** The learner confirmed that the note explaining unavailable fit measurements is visible and easy to read on mobile. This is a visual/readability observation, not a new keyboard-access test or confirmation of all four size choices.
 
-**Still to verify:** Sizing-note keyboard access, header navigation links, bag-icon keyboard access, and independent reviewer comprehension/retry if available. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
+**Navigation follow-up (November 17, learner report):** Outfit Ideas, Brand Guide, and Project Studio links each opened the expected destination when clicked — passed. This was a click test; keyboard navigation for these links was not newly retested.
+
+**Still to verify:** Sizing-note keyboard access, bag-icon keyboard access, and independent reviewer comprehension/retry if available. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
 
 ## T-shirt Plan — November 17, 2026
 
