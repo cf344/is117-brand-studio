@@ -284,3 +284,55 @@ Feedback by @mishkhurshid was reviewed against the existing site and [Research](
 | [#10](https://github.com/cf344/is117-brand-studio/issues/10) | “Style guide” could be mistaken for styling ideas. | Add an Outfit ideas link and rename the internal Brand guide and Project studio links. | Follow each link from the header without hints.                                                   |
 
 AI helped draft the changes. The learner's later keyboard and mobile observations and own test explanation are recorded in [LEARNING.md](LEARNING.md); a human reviewer retry has not been recorded.
+
+## T-shirt Plan — November 17, 2026
+
+**Stage:** Plan approved by learner; this is a specification of upcoming work, not a claim that a SQLite checkout has already been built.
+
+### Two approaches for the chosen audience
+
+- **Approach A — Product-first shopping:** Lead with a clear T-shirt photo, product details, size options and the demo bag. This makes shopping straightforward, but offers less help to a young creative who wants ideas for putting together an outfit.
+- **Approach B — Outfit inspiration with easy shopping (chosen):** Show three ideas for styling the same white T-shirt, while keeping sizes, the demo bag and checkout easy to find. I chose B because Off Hours is meant to help young creatives put together casual outfits without spending too much time planning. The styling ideas stay optional and the buying steps stay simple.
+
+**Audience:** Young creatives choosing casual outfits; college students seeking everyday clothing remain a secondary audience. These are research-based hypotheses, not verified interview findings.
+
+### User stories, essential features and observable checks
+
+| User story | Essential feature | Observable check |
+| --- | --- | --- |
+| As a young creative, I want outfit ideas so I can style a white T-shirt without spending a lot of time planning. | **Outfit Inspiration** | Open Outfit Ideas: three distinct examples and images appear, and their descriptions make sense on desktop and mobile. Ask a reviewer to explain one idea in their own words. |
+| As a visitor, I want to understand the product and choose a size before adding it to my bag. | **Product Information & Sizing** | Product information is visible, S/M/L/XL can be selected, and the site does not invent unverified measurements or material claims. |
+| As a shopper, I want to review my chosen size and quantity before checking out. | **Shopping Bag** | Add a selected size; the bag shows the matching product, size and quantity. The bag icon/label is recognizable and reachable by keyboard. |
+| As a visitor, I want to try checkout safely without spending real money. | **Simulated Checkout** | Confirming a demo order shows a confirmation and order ID, with clear demo-only language; no payment or customer-details form is requested. |
+| As a visitor, I want to see a demo order again after reopening the site. | **SQLite Order Persistence** | In a local Node.js server backed by SQLite, save order ID, product, size, quantity and date; stop/restart the server and retrieve the same order ID and values. Refreshing a static GitHub Pages page alone does not meet this check. |
+
+### Brand choices carried forward
+
+- **Promise:** “Less time choosing. More time doing your thing.”
+- **Visual direction:** Simple modernist-inspired layout, neutral colors, clear typography, organized sections, white T-shirt visuals and an original SVG Off Hours wordmark. Share styles with the live brand guide.
+- **Voice:** Casual, clear and friendly; Everyperson brand character.
+- **Honest persuasion — Liking:** Relatable outfit examples and approachable wording help visitors picture everyday use without pretending to know product facts.
+- **Honest persuasion — Reciprocity:** Give visitors three free outfit ideas and optional styling suggestions without requiring a purchase, account or real checkout.
+- **Ethical boundaries:** No invented testimonials, urgency, discounts, fabric facts, fit measurements, or real purchase promises.
+
+### Build boundary and technical approach
+
+Keep the existing storefront, size selector, styling cards and demo bag. Add a simple **demo-only** checkout that does not collect personal or payment information. Locally, extend the Node.js server with a working SQLite database and endpoints for creating and retrieving demo orders. A stored record includes **order ID, product, selected size, quantity and date**. Reopen/restart the local server and verify retrieval. GitHub Pages is static and cannot itself prove that the SQLite server is working. The supported Campus Cotton SQLite starter can be studied and adapted, with any borrowed code or modifications explained in the implementation record.
+
+**Implementation status at planning checkpoint:** Existing static storefront is published; the repository's current server is file-serving only and its package configuration contains no SQLite dependency. Simulated checkout, SQLite save/retrieve and restart verification are **planned, not yet implemented or tested**. Browser-storage-only persistence will not be presented as SQLite.
+
+### Peer review, revision and evidence
+
+- **Review request:** [Issue #12 — Outfit Inspiration user story](https://github.com/cf344/is117-brand-studio/issues/12) asks whether checking that three images appear is enough to show the ideas are understandable. As of November 17, this issue is open with no classmate comments; do not invent a peer question or retry.
+- **Plan improvement already made:** Add a comprehension check: a reviewer should be able to describe at least one outfit idea in their own words, not just confirm images loaded. This strengthens the test while real reviewer feedback is pending.
+- **Earlier feedback:** [Issues #7–#10](https://github.com/cf344/is117-brand-studio/issues) identified audience-record consistency, missing outfit visuals, missing sizing limitations and confusing navigation. Decisions and planned checks are in the preceding section, with changes linked in [PR #11](https://github.com/cf344/is117-brand-studio/pull/11). Learner reported keyboard and mobile testing in [LEARNING.md](LEARNING.md), but a reviewer retry is not documented.
+- **Pending:** Record the classmate's actual question and explanation when received; reply with implement/investigate/defer/decline and reason; link a change and its check, request reviewer retry, and close only once resolved. If feedback cannot be obtained, contact the instructor and show this request.
+- **AI disclosure:** ChatGPT helped organize the approved approach, five stories, feature checks, technical boundary and this record. The learner chose the approach and feature details; actual backend results and peer feedback must be checked, not fabricated.
+
+### Submission links
+
+- [Repository](https://github.com/cf344/is117-brand-studio)
+- [Published storefront](https://cf344.github.io/is117-brand-studio/)
+- [Live style guide](https://cf344.github.io/is117-brand-studio/styleguide.html)
+- [Current research and decisions](SPEC.md)
+- [Peer-review request #12](https://github.com/cf344/is117-brand-studio/issues/12)
