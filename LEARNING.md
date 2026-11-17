@@ -48,3 +48,8 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 - **Learner observation:** All three outfit images and their descriptions display correctly on desktop and mobile — passed (learner report).
 - **Automated workflow:** Learner reported the latest run and a manually triggered Check and publish run passed; exact run URLs not recorded.
 - **Remaining:** Verify sizing note, header links, bag keyboard access, and independent reviewer comprehension. Displaying images does not itself prove that their meaning is clear to a reviewer.
+
+## November 17 — Sizing note follow-up
+
+- **Learner observation:** The note explaining unavailable fit measurements is visible and easy to read on mobile — passed (learner report).
+- **Not yet confirmed by this test:** Keyboard access to the sizing note and a new check of all four size options.
