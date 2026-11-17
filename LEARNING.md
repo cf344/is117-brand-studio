@@ -53,3 +53,8 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 
 - **Learner observation:** The note explaining unavailable fit measurements is visible and easy to read on mobile — passed (learner report).
 - **Not yet confirmed by this test:** Keyboard access to the sizing note and a new check of all four size options.
+
+## November 17 — Navigation links follow-up
+
+- **Learner observation:** Outfit Ideas, Brand Guide, and Project Studio links all opened their expected destinations when clicked — passed (learner report).
+- **Scope:** Click navigation was tested; this is not a new keyboard-navigation or independent reviewer test.
