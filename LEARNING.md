@@ -58,3 +58,8 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 
 - **Learner observation:** Outfit Ideas, Brand Guide, and Project Studio links all opened their expected destinations when clicked — passed (learner report).
 - **Scope:** Click navigation was tested; this is not a new keyboard-navigation or independent reviewer test.
+
+## November 17 — Shopping-bag keyboard follow-up
+
+- **Learner observation:** Tab reached the shopping-bag icon with visible focus; Enter opened the bag; the selected item was displayed correctly — passed (learner report).
+- **Scope:** This verifies the reported keyboard path to the bag, not full-site accessibility. An independent reviewer retry and sizing-note-specific keyboard check remain undocumented.
