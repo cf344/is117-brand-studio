@@ -296,7 +296,11 @@ Following instructor feedback (98/100, with two points remaining under Checked),
 - **Mobile storefront:** Worked in the latest mobile test (learner report, November 17).
 - **Earlier keyboard journey:** Shop navigation, size selection, and Add to bag worked (earlier learner report, not a new keyboard retest).
 
-**Still to verify:** Latest GitHub Actions workflow result; individual peer-review checks for all three outfit cards, sizing note, and header links; independent reviewer comprehension/retry if available. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
+**Follow-up observed result:** On November 17, the learner confirmed that all three Outfit Ideas images and descriptions display correctly on desktop and mobile. This confirms display, not whether an independent reviewer understands the ideas.
+
+**Automated checks:** Learner reported the latest GitHub Actions run and a manually triggered Check and publish run both passed. Exact run URLs have not been recorded.
+
+**Still to verify:** Sizing-note readability and keyboard access, header navigation links, bag-icon keyboard access, and independent reviewer comprehension/retry if available. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
 
 ## T-shirt Plan — November 17, 2026
 
