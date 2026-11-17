@@ -14,7 +14,7 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 | Choice and reason                            | Pending                                                                                     | Pending                                                                             | Pending                                                                                                                                                                                                                                                   |
 | Prediction or visitor benefit                | Pending                                                                                     | Pending                                                                             | Pending                                                                                                                                                                                                                                                   |
 | Interpretation of one actual test            | Learner's own explanation is quoted below.                                                  | AI asked what the check meant; learner supplied the explanation in their own words. | Passing automated checks plus manual keyboard and phone observations; no claim of full accessibility.                                                                                                                                                     |
-| Browser observation and keep/revise decision | Student confirmed Tab navigation worked after changing Safari keyboard navigation settings. | AI explained Safari settings and guided the test.                                   | Learner reported mobile site works and suggested making the top-right bag/cart control more visually recognizable; the learner chose to keep the original bag feature and add an icon; the code change was committed and the learner verified its visible icon and bag behavior on November 17. |
+| Browser observation and keep/revise decision | Student confirmed Tab navigation worked after changing Safari keyboard navigation settings. | AI explained Safari settings and guided the test.                                   | Learner reported mobile site works and suggested making the top-right bag/cart control more visually recognizable; the learner chose to keep the original bag feature and add an icon; the code change was committed, but visual verification is pending. |
 
 ## AI work and evidence links
 
@@ -33,13 +33,11 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 
 **Learner-reported observed results (verbatim):** "bag icon visible: yes; bag displays correct size and quantity: yes; latest mobile test: yes."
 
-| Check | Actual observation | Status |
-| --- | --- | --- |
-| Published bag icon | Visible | Passed — learner report |
-| Selected size and quantity in bag | Correct values shown | Passed — learner report |
-| Latest mobile test | Worked | Passed — learner report |
-| Latest GitHub Actions run | Not yet inspected for this revision | Pending |
-| Independent peer retry and remaining issue-specific checks | Not yet documented | Pending |
+- **Published bag icon:** Visible — passed (learner report).
+- **Selected size and quantity in bag:** Correct values shown — passed (learner report).
+- **Latest mobile test:** Worked — passed (learner report).
+- **Latest GitHub Actions run:** The November 17 runs failed at Prettier formatting for `SPEC.md` and `LEARNING.md`; a successful rerun is pending.
+- **Independent peer retry and remaining issue-specific checks:** Not yet documented — pending.
 
 **AI assistance:** Helped organize the learner's actual observations and update SPEC.md and LEARNING.md without treating planned checks as completed. The learner performed and reported the manual tests; AI did not independently operate their browser.
 
