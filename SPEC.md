@@ -304,7 +304,9 @@ Following instructor feedback (98/100, with two points remaining under Checked),
 
 **Navigation follow-up (November 17, learner report):** Outfit Ideas, Brand Guide, and Project Studio links each opened the expected destination when clicked — passed. This was a click test; keyboard navigation for these links was not newly retested.
 
-**Still to verify:** Sizing-note keyboard access, bag-icon keyboard access, and independent reviewer comprehension/retry if available. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
+**Keyboard bag follow-up (November 17, learner report):** Using Tab, the learner reached the shopping-bag icon and observed visible focus; pressing Enter opened the bag and showed the selected item — passed.
+
+**Remaining limitations:** An independent reviewer comprehension/retry has not been documented. The sizing-note-specific keyboard check was not separately reported. Manual checks are not a claim of full accessibility. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
 
 ## T-shirt Plan — November 17, 2026
 
