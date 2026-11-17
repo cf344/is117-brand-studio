@@ -42,3 +42,9 @@ AI-drafted task evidence, not a transcript or grade. This file may be public: re
 **AI assistance:** Helped organize the learner's actual observations and update SPEC.md and LEARNING.md without treating planned checks as completed. The learner performed and reported the manual tests; AI did not independently operate their browser.
 
 **Next step:** Inspect the latest automated workflow, then test the remaining peer-review items individually. These manual results do not establish full accessibility or SQLite persistence.
+
+## November 17 — Outfit Ideas follow-up
+
+- **Learner observation:** All three outfit images and their descriptions display correctly on desktop and mobile — passed (learner report).
+- **Automated workflow:** Learner reported the latest run and a manually triggered Check and publish run passed; exact run URLs not recorded.
+- **Remaining:** Verify sizing note, header links, bag keyboard access, and independent reviewer comprehension. Displaying images does not itself prove that their meaning is clear to a reviewer.
