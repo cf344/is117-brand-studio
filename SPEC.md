@@ -300,7 +300,9 @@ Following instructor feedback (98/100, with two points remaining under Checked),
 
 **Automated checks:** Learner reported the latest GitHub Actions run and a manually triggered Check and publish run both passed. Exact run URLs have not been recorded.
 
-**Still to verify:** Sizing-note readability and keyboard access, header navigation links, bag-icon keyboard access, and independent reviewer comprehension/retry if available. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
+**Sizing-note follow-up (November 17, learner report):** The learner confirmed that the note explaining unavailable fit measurements is visible and easy to read on mobile. This is a visual/readability observation, not a new keyboard-access test or confirmation of all four size choices.
+
+**Still to verify:** Sizing-note keyboard access, header navigation links, bag-icon keyboard access, and independent reviewer comprehension/retry if available. No SQLite backend or simulated checkout result is claimed here; those remain planned for the Build stage.
 
 ## T-shirt Plan — November 17, 2026
 
