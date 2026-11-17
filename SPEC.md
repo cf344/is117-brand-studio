@@ -298,13 +298,11 @@ AI helped draft the changes. The learner's later keyboard and mobile observation
 
 ### User stories, essential features and observable checks
 
-| User story | Essential feature | Observable check |
-| --- | --- | --- |
-| As a young creative, I want outfit ideas so I can style a white T-shirt without spending a lot of time planning. | **Outfit Inspiration** | Open Outfit Ideas: three distinct examples and images appear, and their descriptions make sense on desktop and mobile. Ask a reviewer to explain one idea in their own words. |
-| As a visitor, I want to understand the product and choose a size before adding it to my bag. | **Product Information & Sizing** | Product information is visible, S/M/L/XL can be selected, and the site does not invent unverified measurements or material claims. |
-| As a shopper, I want to review my chosen size and quantity before checking out. | **Shopping Bag** | Add a selected size; the bag shows the matching product, size and quantity. The bag icon/label is recognizable and reachable by keyboard. |
-| As a visitor, I want to try checkout safely without spending real money. | **Simulated Checkout** | Confirming a demo order shows a confirmation and order ID, with clear demo-only language; no payment or customer-details form is requested. |
-| As a visitor, I want to see a demo order again after reopening the site. | **SQLite Order Persistence** | In a local Node.js server backed by SQLite, save order ID, product, size, quantity and date; stop/restart the server and retrieve the same order ID and values. Refreshing a static GitHub Pages page alone does not meet this check. |
+1. **Outfit Inspiration:** As a young creative, I want outfit ideas so I can style a white T-shirt without spending a lot of time planning. **Check:** Open Outfit Ideas; confirm three distinct examples and images appear and their descriptions make sense on desktop and mobile. Ask a reviewer to explain one idea in their own words.
+2. **Product Information & Sizing:** As a visitor, I want to understand the product and choose a size before adding it to my bag. **Check:** Product information is visible; S/M/L/XL can be selected; no unverified measurements or material claims are invented.
+3. **Shopping Bag:** As a shopper, I want to review my chosen size and quantity before checking out. **Check:** Add a selected size and verify the bag shows the matching product, size and quantity. The bag icon/label is recognizable and reachable by keyboard.
+4. **Simulated Checkout:** As a visitor, I want to try checkout safely without spending real money. **Check:** Confirming a demo order shows a confirmation and order ID, with clear demo-only language and no payment or customer-details form.
+5. **SQLite Order Persistence:** As a visitor, I want to see a demo order again after reopening the site. **Check:** On a local Node.js server backed by SQLite, save order ID, product, size, quantity and date; stop/restart the server and retrieve the same order ID and values. Refreshing a static GitHub Pages page alone does not meet this check.
 
 ### Brand choices carried forward
 
